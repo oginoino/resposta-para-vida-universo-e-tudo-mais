@@ -102,7 +102,7 @@ Tente novamente...
 #Fim de jogo. Resultado
 print("Fim de jogo.\n")
 print(f"""Você acertou a resposta para a vida o univero e tudo mais
-do gerador de improbabilidade infinita em {tentativas} tentatias.
+do gerador de improbabilidade infinita em {tentativas} tentativas.
 """)
 if tentativa_bonus > 0:
     tentativa_bonus = 1
