@@ -71,7 +71,7 @@ while chute != numero_secreto:
     elif chute == 42 and chute != numero_secreto:
         print("Você errou! :(\n")
         print("""42 já foi a resposta um dia.\n
-Tente acertar a nova resposta pelo gerador de improbabilidade infinita.
+Tente acertar a nova resposta do gerador de improbabilidade infinita.
 Porém, você ganhou um bônus de mochileiro das galáxias.\n
 Essa tentativa não será computada.
 Tente novamente...
