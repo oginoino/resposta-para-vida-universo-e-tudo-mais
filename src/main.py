@@ -69,13 +69,17 @@ while chute != numero_secreto:
     
     #Mais fã service
     elif chute == 42 and chute != numero_secreto:
+        time.sleep(2)
         print("Você errou! :(\n")
+        time.sleep(2)
         print("""42 já foi a resposta um dia.\n
-Tente acertar a nova resposta do gerador de improbabilidade infinita.
-Porém, você ganhou um bônus de mochileiro das galáxias.\n
-Essa tentativa não será computada.
-Tente novamente...
-        """)
+Tente acertar a nova resposta do gerador de improbabilidade infinita. \n""")
+        time.sleep(3)
+        print("""Porém, você ganhou um bônus de mochileiro das galáxias.\n
+Essa tentativa não será computada.\n""")
+        time.sleep(2)
+        print("Tente novamente...\n")
+        time.sleep(2)
         tentativa_bonus = tentativa_bonus + 1
         if chute > numero_secreto:
             time.sleep(1.0)
